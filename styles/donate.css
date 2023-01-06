@@ -78,8 +78,7 @@ hr {
 }
 .donate .btn-primary {
   margin: 40px;
-  margin-left: 750px;
-  align-items: center;
+  margin-left: 550px;
 }
 /* Donation plan */
 .donations {
@@ -135,6 +134,12 @@ hr {
     background-image: url("../images/donation8.jpg");
     background-repeat: no-repeat;
 }
-.depends-on-you{
-
+.xyz{
+    display: flex;
+    margin-left: 200px;
+}
+.donation-img{
+    width: 700px;
+    padding-right:100px ;
+    padding-left: 100px;
 }
