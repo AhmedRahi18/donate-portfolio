@@ -6,7 +6,7 @@
   text-align: center;
   padding: 150px;
   background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%),
-    url(/images/donation13.jpg);
+    url("../images/donation13.jpg");
   background-size: cover;
 }
 .banner-title {
@@ -28,105 +28,113 @@
   padding: 20px 30px;
 }
 /* Donate section */
-.donate{
-    margin-right: 20px;
-    margin-left: 20px;
+.donate {
+  margin-right: 20px;
+  margin-left: 20px;
 }
-.section-title{
-    text-align: center;
-    margin-top: 100px;
-    font-size: 40px;
-    font-weight: 700;
-    font-family: sans-serif;
+.section-title {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: sans-serif;
 }
-.section-description{
-    text-align: center;
-    color:gray;
-    margin: 35px;
-    font-size: 20px;
+.section-description {
+  text-align: center;
+  color: gray;
+  margin: 35px;
+  font-size: 20px;
 }
-.donate-amounts{
-    display: flex;
-    justify-content: center;
+.donate-amounts {
+  display: flex;
+  justify-content: center;
 }
-.amount{
-    font-size: 30px;
-    font-weight: 800;
-    font-family: sans-serif;
-    color: grey;
-    background-color: whitesmoke;
-    padding: 20px;
-    margin: 10px;
+.amount {
+  font-size: 30px;
+  font-weight: 800;
+  font-family: sans-serif;
+  color: grey;
+  background-color: whitesmoke;
+  padding: 20px;
+  margin: 10px;
 }
-.select-amount{
-    border: 1px solid rgb(244, 88, 88);
-    background-color: rgb(252, 241, 241);
-    color: rgb(244, 91, 91);
-    padding: 20px;
-    margin: 10px;
-    font-size: 30px;
-    font-weight: 800;
+.select-amount {
+  border: 1px solid rgb(244, 88, 88);
+  background-color: rgb(252, 241, 241);
+  color: rgb(244, 91, 91);
+  padding: 20px;
+  margin: 10px;
+  font-size: 30px;
+  font-weight: 800;
 }
-.more-amount{
-    margin-top: 50px;
-    text-align: center;
-    color: rgb(173, 171, 171);
-    padding: 10px;
+.more-amount {
+  margin-top: 50px;
+  text-align: center;
+  color: rgb(173, 171, 171);
+  padding: 10px;
 }
-hr{
-    margin: 0 480px;
+hr {
+  margin: 0 480px;
 }
-.donate .btn-primary{
-    margin: 40px;
-    margin-left: 750px;
+.donate .btn-primary {
+  margin: 40px;
+  margin-left: 750px;
+  align-items: center;
 }
 /* Donation plan */
-.donations{
-    display: flex;
-    margin: 0px 150px;
-    margin:30px;
-    height: 50;
-    padding: 30px;
-    margin-right: 30px;
-    margin-left: 120px;
-    margin-bottom: 60px;
-    
+.donations {
+  display: flex;
+  margin: 0px 150px;
+  margin: 30px;
+  height: 50;
+  padding: 30px;
+  margin-right: 30px;
+  margin-left: 120px;
+  margin-bottom: 60px;
 }
-.donate-items-1{
-    background-color: rgb(226, 239, 243);
-    margin-right: 30px;
-    margin-left: 70px;
-    padding: 40px;
-    width: 320px;
+.donate-items-1 {
+  background-color: rgb(226, 239, 243);
+  margin-right: 30px;
+  margin-left: 70px;
+  padding: 40px;
+  width: 320px;
 }
-.donate-items-2{
-    background-color: rgb(248, 209, 215);
-    margin-right: 30px;
-    padding: 40px;
-    width: 320px;
+.donate-items-2 {
+  background-color: rgb(248, 209, 215);
+  margin-right: 30px;
+  padding: 40px;
+  width: 320px;
 }
-.donate-items-3{
-    background-color: rgb(248, 200, 181);
-    padding: 40px;
-    width: 320px;
+.donate-items-3 {
+  background-color: rgb(248, 200, 181);
+  padding: 40px;
+  width: 320px;
 }
-.donation-title{
-    font-size: medium;
-    font-weight: 800px;
+.donation-title {
+  font-size: medium;
+  font-weight: 800px;
 }
-.donate-description{
-    color: black;
+.donate-description {
+  color: black;
+}
+.depends-on-you {
+  margin-left: 200px;
+}
+.depend-title {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+.depend-description {
+  font-size: 20px;
+  color: gray;
+  margin-bottom: 50px;
+}
+.depended {
+    text-align: left;
+    background-image: url("../images/donation8.jpg");
+    background-repeat: no-repeat;
 }
 .depends-on-you{
-    margin-left: 200px;
-}
-.depend-title{
-    font-size: 40px;
-    font-weight: 700;
-    font-family: sans-serif;
-}
-.depend-description{
-    font-size: 20px;
-    color:gray;
-    margin-bottom: 50px;
+
 }
